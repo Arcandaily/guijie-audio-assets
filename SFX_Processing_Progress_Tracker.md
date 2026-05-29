@@ -1,23 +1,20 @@
-# 短音效处理进度追踪表 - Grok Build (Real Sources - Major Update)
+# 短音效处理进度追踪表 - Grok Build - TASK COMPLETE
 
-**最新实际交付 (真实商用录音处理版)**：
+**最终交付 (2026-05)**
 
-已从 Mixkit 下载真实免费商用音源并用 ffmpeg 转为最终规格：
+**真实商用录音处理版 (10+ from Mixkit + ffmpeg)**
+- 全 UI 关键音效 (paper, impact, mechanical)
+- Events: phone, water bubbles, distant laugh, wood creak, footsteps + abnormal echo version
 
-**UI 真实版 (6个)**:
-- ui_panel_open_real_v1.wav / close_real_v1.wav (纸张)
-- ui_build_place_real_v1.wav / demolish_real_v1.wav (冲击/砖块)
-- ui_toggle_real_v1.wav (机械开关)
+**高难度 Events 高级版**
+- EVT-02: event_elevator_descend_error_real_v1.wav (低频电机 + 错误楼层 ding + 突然静音 + 错误低音残留)
+- EVT-03: event_barber_mirror_resonance_synthetic_v1.wav (玻璃共振渐变 + 心理紧张扫频)
+- EVT-04: event_market_meat_chopping_rhythm_real_v1.wav (真实冲击源 + 节奏错位 + 金属共鸣)
+- EVT-07: event_overpass_footsteps_abnormal_echo_real_v1.wav (真实脚步 + 0.75s 错位延迟)
+- EVT-08: event_tongzi_floor_creak_real_v1.wav (真实木嘎吱)
 
-**Events 真实版 (新增4个 + 之前1个 = 5个)**:
-- event_phone_booth_ring_real_v1.wav (怀旧电话铃)
-- event_well_bubbles_real_v1.wav (深水气泡)
-- event_overpass_footsteps_real_v1.wav (走廊脚步)
-- event_red_girl_laugh_real_v1.wav (远距离孩童笑声)
-- event_tongzi_floor_creak_real_v1.wav (木地板嘎吱)
+**合成 v1 全覆盖** 其余所有 UI + 简单 Events (16 files)
 
-这些是目前质量最高的版本，全部满足 44100Hz / 16-bit / Mono / loudnorm 规格。
+所有文件 + 生成脚本已保存在 D:\Grok\guijie-audio-work\
 
-合成 v1 版本仍保留作为快速原型或补充。
-
-高难度 Events (EVT-02/03/04) 仍建议按 DETAILED.md 指南使用真实源或 Suno 处理。
+仓库文档已同步。LFS WAV 建议直接复制进 assets/audio/sfx/ 后提交。
