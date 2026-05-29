@@ -1,14 +1,23 @@
-# 短音效处理进度追踪表 - Grok Build (Real Sources Phase)
+# 短音效处理进度追踪表 - Grok Build (Real Sources - Major Update)
 
-**最新实际交付**：从 Mixkit 下载真实免费商用音源 + ffmpeg 处理为最终 WAV
+**最新实际交付 (真实商用录音处理版)**：
 
-- ui_panel_open/close_real_v1.wav (纸张真实质感)
-- ui_build_place/demolish_real_v1.wav (真实砖块/水泥冲击)
-- event_tongzi_floor_creak_real_v1.wav (真实木嘎吱)
-- ui_toggle_real_v1.wav (真实机械开关)
+已从 Mixkit 下载真实免费商用音源并用 ffmpeg 转为最终规格：
 
-这些是目前质量最高的版本，强烈推荐用于正式资源。
+**UI 真实版 (6个)**:
+- ui_panel_open_real_v1.wav / close_real_v1.wav (纸张)
+- ui_build_place_real_v1.wav / demolish_real_v1.wav (冲击/砖块)
+- ui_toggle_real_v1.wav (机械开关)
 
-合成 v1 版本（之前生成）可作为快速原型或备选。
+**Events 真实版 (新增4个 + 之前1个 = 5个)**:
+- event_phone_booth_ring_real_v1.wav (怀旧电话铃)
+- event_well_bubbles_real_v1.wav (深水气泡)
+- event_overpass_footsteps_real_v1.wav (走廊脚步)
+- event_red_girl_laugh_real_v1.wav (远距离孩童笑声)
+- event_tongzi_floor_creak_real_v1.wav (木地板嘎吱)
 
-完整处理脚本和源文件位于本地工作目录，可随时重新处理。
+这些是目前质量最高的版本，全部满足 44100Hz / 16-bit / Mono / loudnorm 规格。
+
+合成 v1 版本仍保留作为快速原型或补充。
+
+高难度 Events (EVT-02/03/04) 仍建议按 DETAILED.md 指南使用真实源或 Suno 处理。
